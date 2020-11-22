@@ -95,4 +95,5 @@ export class Service {
 export enum Encoding {
     "Shift_JIS"= "Shift_JIS",
     "UTF8"= "UTF-8",
+    "Big5"= "BIG5",
 }

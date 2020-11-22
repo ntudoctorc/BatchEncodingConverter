@@ -12,7 +12,9 @@
     ],
     "activationEvents": [
         "onCommand:extension.convertSjisToUTF8",
-        "onCommand:extension.convertUTF8ToSjis"
+        "onCommand:extension.convertUTF8ToSjis",
+        "onCommand:extension.convertBig5ToUTF8",
+        "onCommand:extension.convertUTF8ToBig5"
     ],
     "main": "./out/extension",
     "contributes": {
@@ -24,6 +26,14 @@
             {
                 "command": "extension.convertUTF8ToSjis",
                 "title": "BatchEncodingConvert: UTF8 to SJIS"
+            },
+            {
+                "command": "extension.convertBig5ToUTF8",
+                "title": "BatchEncodingConvert: Big5 to UTF8"
+            },
+            {
+                "command": "extension.convertUTF8ToBig5",
+                "title": "BatchEncodingConvert: UTF8 to Big5"
             }
         ]
     },
